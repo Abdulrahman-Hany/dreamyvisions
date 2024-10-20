@@ -42,7 +42,7 @@ gsap.from(".elementor-background-overlay h1", {
     duration:.9,
     stagger:.3
 })
-gsap.from(".features li", {
+gsap.from(".features-badge li", {
     opacity:0,
     delay:1.3,
     x:10,
