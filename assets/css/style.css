@@ -1523,6 +1523,10 @@ button:hover {
 .info a li:hover i {
     transform: translateX(-5px);
 }
+.info-work {
+    display: flex;
+    flex-wrap: wrap;
+}
 .info ,
 .info-work{
     display: flex;
