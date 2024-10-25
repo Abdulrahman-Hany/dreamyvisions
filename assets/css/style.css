@@ -1195,8 +1195,8 @@ footer {
     margin-left: 10px;
 }
 
-.footer-section .social-media .logo img {
-    width: 100px;
+.footer-section.social-media .logo img {
+    max-width: 250px;
     margin-bottom: 20px;
 }
 
@@ -2043,5 +2043,8 @@ iframe {
 
     .footer-section ul li {
         display: block;
+    }
+    .footer-section.social-media .logo img {
+    max-width: 195px;
     }
 }
